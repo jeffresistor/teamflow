@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
 group :test do
 	gem 'cucumber', '~> 1.3.19'
 	gem 'rspec', '~> 3.2.0'
