@@ -1,0 +1,15 @@
+source 'https://rubygems.org'
+group :test do
+	gem 'cucumber', '~> 1.3.19'
+	gem 'rspec', '~> 3.2.0'
+	gem 'capybara', '~> 2.4.4'
+	gem 'selenium-webdriver', '~> 2.44.0'
+	gem 'sinatra', '~> 1.4.5'
+	gem 'sinatra-contrib', '~> 1.4.2'
+	gem 'slim', '~> 3.0.2'
+	gem 'json', '~> 1.8.2'
+  gem 'minitest', '~> 5.4.3'
+  gem 'minitest-reporters', '~> 1.0.15'
+  gem 'httparty', '~> 0.13.3'
+  gem 'rack-test', '~> 0.6.3'
+end

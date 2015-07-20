@@ -1,0 +1,47 @@
+To install the demo project and required Ruby version and gems:
+---------------------------------------------------------------
+1)  Install Firefox
+2)  Install Git if not already installed
+3)  Install Ruby version 1.9.3-p551 using the instructions appropriate for your system at https://www.ruby-lang.org/en/documentation/installation/
+4)  Install Bundler using the command 'gem install bundler'
+5)  For Windows users - Install Ansicon 1.31 or higher using the instructions at http://qastuffs.blogspot.com/2011/02/how-to-install-ansicon-for-cucumber-to.html
+6)  Clone the teamflow project to your working directory using the command 'git clone https://github.com/jeffresistor/???'
+7)  CD to the root of /teamflow
+8)  Install the required gems using the command 'bundle install'
+9)  CD to the /teamflow/src/tests/ directory
+10) Run cucumber using the command 'cucumber'
+11) Verify the terminal output is as shown below:
+
+---------------------------------------------------------------
+---------------------------------------------------------------
+Feature: Calculate Throughput
+
+  Scenario: Calculate throughput by average wip and average cycle time with valid inputs # features/calculate_througput.feature:3
+    Given an average wip of 1 work items in progress                                     # features/calculate_througput.feature:4
+    And an average cycle time of 2 days                                                  # features/calculate_througput.feature:5
+    When I calculate throughput                                                          # features/calculate_througput.feature:6
+    Then throughput should be 0.5 work items per day                                     # features/calculate_througput.feature:7
+
+1 scenario (1 undefined)
+4 steps (4 undefined)
+0m0.052s
+
+You can implement step definitions for undefined steps with these snippets:
+
+Given(/^an average wip of (\d+) work items in progress$/) do |arg1|
+  pending # express the regexp above with the code you wish you had
+end
+
+Given(/^an average cycle time of (\d+) days$/) do |arg1|
+  pending # express the regexp above with the code you wish you had
+end
+
+When(/^I calculate throughput$/) do
+  pending # express the regexp above with the code you wish you had
+end
+
+Then(/^throughput should be (\d+)\.(\d+) work items per day$/) do |arg1, arg2|
+  pending # express the regexp above with the code you wish you had
+end
+---------------------------------------------------------------
+---------------------------------------------------------------
