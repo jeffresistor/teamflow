@@ -12,7 +12,7 @@ To install the demo project and required Ruby version and gems:
 
     Install Ruby 1.9.3-p551 using the Ruby Installer for Windows at http://rubyinstaller.org/downloads/
 
-    Install the Ruby DevKit version tdm-32-4.5.2 at http://rubyinstaller.org/downloads/ using the installation instructions at https://github.com/oneclick/rubyinstaller/wiki/Development-Kit
+    Install the Ruby DevKit version tdm-32-4.5.2 at http://rubyinstaller.org/downloads/ using the installation instructions at https://github.com/oneclick/rubyinstaller/wiki/Development-Kit. Be sure to test the installation as described in the instructions.
 
 4)  Install Bundler using the command 'gem install bundler' in your terminal
 
