@@ -1,15 +1,15 @@
 To install the demo project and required Ruby version and gems:
 ---------------------------------------------------------------
 1)  Install Firefox
-2)  Install Git if not already installed
+2)  Install Git using the instructions appropriate for your system at http://www.git-scm.com/downloads
 3)  Install Ruby version 1.9.3-p551 using the instructions appropriate for your system at https://www.ruby-lang.org/en/documentation/installation/
-4)  Install Bundler using the command 'gem install bundler'
+4)  Install Bundler using the command 'gem install bundler' in your terminal
 5)  For Windows users - Install Ansicon 1.31 or higher using the instructions at http://qastuffs.blogspot.com/2011/02/how-to-install-ansicon-for-cucumber-to.html
-6)  Clone the teamflow project to your working directory using the command 'git clone https://github.com/jeffresistor/???'
-7)  CD to the root of /teamflow
-8)  Install the required gems using the command 'bundle install'
-9)  CD to the /teamflow/src/tests/ directory
-10) Run cucumber using the command 'cucumber'
+6)  Clone the teamflow project to your working directory using the command 'https://github.com/jeffresistor/teamflow.git' in your terminal
+7)  CD to the root of /teamflow in your terminal
+8)  Install the required gems using the command 'bundle install' in your terminal
+9)  CD to the /teamflow/src/tests/ directory in your terminal
+10) Run cucumber using the command 'cucumber' in your terminal
 11) Verify the terminal output is as shown below:
 
 ---------------------------------------------------------------
