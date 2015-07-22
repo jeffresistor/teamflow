@@ -18,15 +18,17 @@ To install the demo project and required Ruby version and gems:
 
 5)  Clone the teamflow GitHub project to your working directory using the command 'git clone https://github.com/jeffresistor/teamflow.git' in your terminal
 
-6)  Install Bundler using the command 'gem install bundler' in your terminal
+6)  Checkout the v1.0 tag to a branch using the command 'git checkout -b version_1 v1.0' in your terminal
 
-7)  CD to the root of /teamflow in your terminal
+7)  Install Bundler using the command 'gem install bundler' in your terminal
 
-8)  Install the required gems using the command 'bundle install' in your terminal
+8)  CD to the root of /teamflow in your terminal
 
-9)  CD to the /teamflow/src/tests/ directory in your terminal
+9)  Install the required gems using the command 'bundle install' in your terminal
 
-10) Run cucumber using the command 'cucumber' in your terminal
+10)  CD to the /teamflow/src/tests/ directory in your terminal
+
+11) Run cucumber using the command 'cucumber' in your terminal
 
 11) Verify the terminal output is as shown below:
 
