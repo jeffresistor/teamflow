@@ -14,11 +14,11 @@ To install the demo project and required Ruby version and gems:
 
     Install the Ruby DevKit version tdm-32-4.5.2 at http://rubyinstaller.org/downloads/ using the installation instructions at https://github.com/oneclick/rubyinstaller/wiki/Development-Kit. Be sure to test the installation as described in the instructions.
 
-4)  Install Bundler using the command 'gem install bundler' in your terminal
+4)  * Windows users - Install Ansicon 1.66 from https://github.com/adoxa/ansicon/releases using the instructions at http://qastuffs.blogspot.com/2011/02/how-to-install-ansicon-for-cucumber-to.html. If your Command Terminal stops executing Git and Ruby after installing Ansicon, exclude the Ansicon installation directory from Windows Defender using the instructions at http://answers.microsoft.com/en-us/protect/wiki/protect_defender-protect_scanning/how-to-exclude-a-filefolder-from-windows-defender/f32ee18f-a012-4f02-8611-0737570e8eee
 
-5)  * Windows users - Install Ansicon 1.66 from https://github.com/adoxa/ansicon/releases using the instructions at http://qastuffs.blogspot.com/2011/02/how-to-install-ansicon-for-cucumber-to.html. If your Command Terminal stops executing Git and Ruby after installing Ansicon, exclude the Ansicon installation directory from Windows Defender using the instructions at http://answers.microsoft.com/en-us/protect/wiki/protect_defender-protect_scanning/how-to-exclude-a-filefolder-from-windows-defender/f32ee18f-a012-4f02-8611-0737570e8eee
+5)  Clone the teamflow GitHub project to your working directory using the command 'git clone https://github.com/jeffresistor/teamflow.git' in your terminal
 
-6)  Clone the teamflow GitHub project to your working directory using the command 'git clone https://github.com/jeffresistor/teamflow.git' in your terminal
+6)  Install Bundler using the command 'gem install bundler' in your terminal
 
 7)  CD to the root of /teamflow in your terminal
 
