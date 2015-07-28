@@ -19,3 +19,7 @@ Then(/^throughput should be (.*?) work items per day$/) do |expected_throughput|
   #puts "We want to make sure @throughput, which is #{@throughput}, is equal to #{expected_throughput}"
   expect(@throughput).to eq(expected_throughput.to_f)
 end
+
+Then(/^I should see the following error message: "([^"]*)"$/) do |expected_message|
+  expect(@error_message).to eq(expected_message)
+end
