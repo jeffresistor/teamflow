@@ -1,3 +1,7 @@
 To execute all test files in the /l3flow/src/test/unit/ directory, navigate to /l3flow/src/test/unit/ in a terminal and enter the command below:
 
+# Linux:
 for file in *.rb; do ruby $file; done 
+
+# Windows: 
+TODO

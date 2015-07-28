@@ -1,3 +1,6 @@
+require 'Validator.rb'
+require 'MessageManager.rb'
+
 class ThroughputCalculator
   
   def initialize
