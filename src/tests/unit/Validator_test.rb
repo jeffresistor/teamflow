@@ -27,8 +27,8 @@ class TestValidator < MiniTest::Test
   	assert_equal(false, @validator.is_positive_number('0'))
   end  
 
-  def test_that_negative_8_is_not_a_valid_positive_number
-  	assert_equal(false, @validator.is_positive_number('-8'))
+  def test_that_negative_point001_is_not_a_valid_positive_number
+  	assert_equal(false, @validator.is_positive_number('-.001'))
   end
 
 end
