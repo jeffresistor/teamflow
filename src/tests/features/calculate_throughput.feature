@@ -11,7 +11,6 @@ Feature: Calculate Throughput
       | 1.1 | 0.0004 		| 2750 					|
       | 5.4 | 24.789 		| 0.21783855742466415 	|
 
-  @javascript
   Scenario Outline: Invalid parameters passed in throughput request by wip and cycle time
     Given an average wip of <wip> work items in progress
     And an average cycle time of <cycle time> days
