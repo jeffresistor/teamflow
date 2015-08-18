@@ -12,4 +12,5 @@ group :test do
   gem 'minitest-reporters', '~> 1.0.15'
   gem 'httparty', '~> 0.13.3'
   gem 'rack-test', '~> 0.6.3'
+	gem 'simplecov', '~> 0.10.0'
 end
