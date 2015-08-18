@@ -1,7 +1,7 @@
 require 'minitest/autorun'
 require_relative '../../web/model/ThroughputCalculator.rb'
 
-class TestCalculatorThroughput < Minitest::Test
+class TestThroughputCalculator < Minitest::Test
 
     def setup
       @calculator = ThroughputCalculator.new
