@@ -25,6 +25,6 @@ Feature: Selenium Webdriver demonstration feature
     Given I navigate to "http://www.uscis.gov/about-us/find-uscis-office"
     And I click the link with text "Field Offices"
     And I click the link with text "Washington DC Field Office"
-    Then the page title should be "Washington, DC - Washington Field Office"
+    Then the page title should be "Washington, DC - Washington Field Office | USCIS"
     And I should see text "Field Office Director: Kimberly Zanotti"
 
