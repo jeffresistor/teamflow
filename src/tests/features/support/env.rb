@@ -6,14 +6,10 @@ require_relative '../../../web/model/ThroughputCalculator'
 # @return [Object]
 def start_selenium_driver
   unless $browser != nil
-    #begin
+    # start a new selenium webdriver
     $browser = Selenium::WebDriver.for :firefox
     $browser.manage.window.maximize
     # set implicit timeout to 10 seconds
     $browser.manage.timeouts.implicit_wait = 10
-    #rescue Exception => e
-    # puts e.message
-    #Process.exit(0)
-    #end
   end
 end
