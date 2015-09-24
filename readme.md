@@ -1,4 +1,4 @@
-#To install the demo project and required Ruby version and gems:
+###To install the demo project and required Ruby version and gems:
 ---------------------------------------------------------------
 1.  Install Firefox
 2.  Install Git using the instructions appropriate for your system at http://www.git-scm.com/downloads
